@@ -1,7 +1,8 @@
 var React = require('react');
 var Clock = require('Clock');
+var createReactClass = require('create-react-class');
 
-var Countdown = React.createClass({
+var Countdown = createReactClass({
   render: function () {
     return (
       <div>
