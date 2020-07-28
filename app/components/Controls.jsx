@@ -14,6 +14,7 @@ var Controls = createReactClass({
     }
   },
 
+
   render: function () {
     var {countdownStatus} = this.props;
     var renderStartStopButton = () => {
